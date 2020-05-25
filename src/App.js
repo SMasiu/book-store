@@ -16,7 +16,7 @@ history.listen(_ => {
 
 const App = () => (
 	<div className="App">
-		<Router history={history} basename="/book-store">
+		<Router history={history}>
 			<Header />
 			<div className="page-wrapper">
 				<Switch>

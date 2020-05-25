@@ -19,7 +19,7 @@ const HomeProduct = () => (
                         <div className="hp-product">
                             <div className="hp-img-wrapper">
                                 <figure className="hp-product-img">
-                                    <img src={process.env.PUBLIC_URL + 'book-mockup.png'} alt="book"/>
+                                    <img src={process.env.PUBLIC_URL + '/book-mockup.png'} alt="book"/>
                                 </figure>
                             </div>
                             <section className="hp-get-book">

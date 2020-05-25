@@ -13,7 +13,7 @@ const Product = () => {
                         <div className="hp-product-i">
                             <div className="hp-img-wrapper-i">
                                 <figure className="hp-product-img-i">
-                                    <img src={process.env.PUBLIC_URL + 'book-mockup.png'} alt="book" />
+                                    <img src={process.env.PUBLIC_URL + '/book-mockup.png'} alt="book" />
                                 </figure>
                             </div>
                             <section className="hp-get-book-i">
@@ -48,7 +48,7 @@ const Product = () => {
                     <div className="tile-img-wrapper-i">
                         <Box>
                             <div className="tile-image-i">
-                                <img src={process.env.PUBLIC_URL + 'read.jpeg'} alt="tile-img"/>
+                                <img src={process.env.PUBLIC_URL + '/read.jpeg'} alt="tile-img"/>
                             </div>
                         </Box>
                     </div>

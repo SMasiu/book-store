@@ -9,11 +9,11 @@ const About = () => (
             <div className="stage-content">
                 <section className="stage-images-box">
                     <div className="stain-wrapper">
-                        <img src={process.env.PUBLIC_URL + 'stain2.png'} alt="stain"/>
+                        <img src={process.env.PUBLIC_URL + '/stain2.png'} alt="stain"/>
                     </div>
                     <div className="about-img-wrapper">
                         <Box>
-                            <img src={process.env.PUBLIC_URL + 'about.jpeg'} alt="about"/>
+                            <img src={process.env.PUBLIC_URL + '/about.jpeg'} alt="about"/>
                         </Box>
                     </div>
                 </section>

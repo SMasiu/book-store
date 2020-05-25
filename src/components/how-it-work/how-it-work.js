@@ -25,7 +25,7 @@ const HowItWork = () => (
                 <div className="tile-img-wrapper">
                     <Box>
                         <div className="tile-image">
-                            <img src={process.env.PUBLIC_URL + 'read.jpeg'} alt="tile-img"/>
+                            <img src={process.env.PUBLIC_URL + '/read.jpeg'} alt="tile-img"/>
                         </div>
                     </Box>
                 </div>
@@ -38,7 +38,7 @@ const HowItWork = () => (
                 <div className="tile-img-wrapper">
                     <Box>
                         <div className="tile-image">
-                            <img src={process.env.PUBLIC_URL + 'write.jpeg'} alt="tile-img"/>
+                            <img src={process.env.PUBLIC_URL + '/write.jpeg'} alt="tile-img"/>
                         </div>
                     </Box>
                 </div>
@@ -77,7 +77,7 @@ const HowItWork = () => (
                 <div className="tile-img-wrapper-top">
                     <Box>
                         <div>
-                            <img src={process.env.PUBLIC_URL + 'vote.jpg'} alt="tile-img"/>
+                            <img src={process.env.PUBLIC_URL + '/vote.jpg'} alt="tile-img"/>
                         </div>
                     </Box>
                 </div>
