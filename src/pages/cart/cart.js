@@ -6,10 +6,10 @@ import CartItem from '../../components/cart-item/cart-item';
 const Cart = () => {
 
     const cartItems = [
-        { name: 'Star Wars I', img: 'starwars.jpg', price: '30$' },
-        { name: 'Star Wars II', img: 'starwars.jpg', price: '10$' },
-        { name: 'Star Wars III', img: 'starwars.jpg', price: '60$' },
-        { name: 'Star Wars IV', img: 'starwars.jpg', price: '90$' },
+        { name: 'Star Wars I', img: process.env.PUBLIC_URL + '/starwars.jpg', price: '30$' },
+        { name: 'Star Wars II', img: process.env.PUBLIC_URL + '/starwars.jpg', price: '10$' },
+        { name: 'Star Wars III', img: process.env.PUBLIC_URL + '/starwars.jpg', price: '60$' },
+        { name: 'Star Wars IV', img: process.env.PUBLIC_URL + '/starwars.jpg', price: '90$' },
     ]
 
     const getColor = (i) => `cart-item-${['primary', 'secondary', 'dark'][i % 3]}`

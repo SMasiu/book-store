@@ -8,11 +8,11 @@ const Welcome = () => (
     <section className="welcome-box">
         <div className="content-stage-1">
             <footer className="stage-footer">
-                <img src="stain1.png" alt="stain" />
+                <img src={process.env.PUBLIC_URL + 'stain1.png'} alt="stain" />
             </footer>
             <div className="content-stage-2">
                 <Box>
-                    <img src="welcome.jpg" alt="wecome" />
+                    <img src={process.env.PUBLIC_URL + '/welcome.jpg'} alt="wecome" />
                 </Box>
             </div>
             <div className="s3-wrapper">
