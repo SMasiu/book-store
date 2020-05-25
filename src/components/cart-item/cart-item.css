@@ -1,0 +1,30 @@
+.cart-item-wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    padding: 15px 30px;
+    gap: 25px;
+}
+
+.book-title {
+    font-size: 2.2rem;
+}
+
+.cart-item-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-item-primary {
+    background-color: var(--primary);
+}
+
+.cart-item-secondary {
+    background-color: var(--secondary);
+}
+
+.cart-item-dark {
+    background-color: var(--dark);
+    color: var(--light);
+}

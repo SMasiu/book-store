@@ -1,9 +1,17 @@
-.book-types-wrapper {
+.book-types-container {
     max-width: 1800px;
+    margin: auto;
+}
+
+.book-types-container h1 {
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+.book-types-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    margin: auto;
 }
 
 .book-type-wrapper {

@@ -35,15 +35,19 @@ const ProductTypes = () => {
     }
 
     return (
-        <section className="book-types-wrapper">
+        <div className="book-types-container">
+            <h1>Categories</h1>
+            <section className="book-types-wrapper">
+                
+
+                {books.map((b, i) => (
+                    <div key={i} className="book-type-wrapper"> 
+                        <ProductTypeItem type={b.type} img={b.img} color={getColor(i)}></ProductTypeItem>
+                    </div>
+                ))}
             
-            {books.map((b, i) => (
-                <div key={i} className="book-type-wrapper"> 
-                    <ProductTypeItem type={b.type} img={b.img} color={getColor(i)}></ProductTypeItem>
-                </div>
-            ))}
-        
-        </section>
+            </section>
+        </div>
     )
 }
 

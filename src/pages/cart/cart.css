@@ -1,0 +1,23 @@
+.cart-wrapper {
+    max-width: 1800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cart-wrapper h1 {
+    font-size: 3rem;
+}
+
+.cart-item-container {
+    margin: 25px 0;
+}
+
+.cart-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-total {
+    font-size: 2rem;
+}
