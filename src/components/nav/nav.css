@@ -1,0 +1,24 @@
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+.cart-wrapper a {
+    padding: 5px;
+}
+
+@media (max-width: 900px) { 
+    .nav ul {
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    .nav a {
+        font-size: 3rem;
+    }
+}

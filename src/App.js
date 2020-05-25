@@ -1,26 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Switch, Route } from "react-router-dom";
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import HomePage from './pages/home/home';
+import history from './history';
+import LoginPage from './pages/login/login';
+import RegisterPage from './pages/register/register';
+import Cart from './pages/cart/cart';
+import Product from './pages/product/product';
+import ProductTypes from './pages/product-types/product-types';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+history.listen(_ => {
+	window.scrollTo(0, 0);
+})
+
+const App = () => (
+	<div className="App">
+		<Router history={history}>
+			<div className="page-container">
+				<Header />
+				<div className="page-wrapper">
+					<Switch>
+						<Route path="/" exact>
+							<HomePage />
+						</Route>
+						<Route path="/login">
+							<LoginPage />
+						</Route>
+						<Route path="/register">
+							<RegisterPage />
+						</Route>
+						<Route path="/cart">
+							<Cart />
+						</Route>
+						<Route path="/product">
+							<Product />
+						</Route>
+						<Route path="/categories">
+							<ProductTypes />
+						</Route>
+					</Switch>
+				</div>
+				<Footer />
+			</div>
+		</Router>
+	</div>
+)
+
 
 export default App;
