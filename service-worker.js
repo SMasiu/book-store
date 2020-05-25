@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SMasiu.hithub.io/book-store/precache-manifest.5470f76f740831134ef317f22caa059e.js"
+  "/SMasiu.hithub.io/book-store/precache-manifest.b0cb77dd22ac7ff19c190a6c4ac676f8.js"
 );
 
 self.addEventListener('message', (event) => {

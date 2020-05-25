@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e61459018808f8cd82636acfb7f1758c",
+    "revision": "7d78ce9d898d4aa8d6a25253ab94e14f",
     "url": "/SMasiu.hithub.io/book-store/index.html"
   },
   {
-    "revision": "625e81136c1b52f3fc3e",
+    "revision": "4de7f2702b2f79183162",
     "url": "/SMasiu.hithub.io/book-store/static/css/main.27304420.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SMasiu.hithub.io/book-store/static/js/2.83d4022d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "625e81136c1b52f3fc3e",
-    "url": "/SMasiu.hithub.io/book-store/static/js/main.ddd4214e.chunk.js"
+    "revision": "4de7f2702b2f79183162",
+    "url": "/SMasiu.hithub.io/book-store/static/js/main.6ad84b72.chunk.js"
   },
   {
     "revision": "85410aa9b5cd8a64e621",
