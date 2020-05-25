@@ -1,0 +1,11 @@
+.book-types-wrapper {
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: auto;
+}
+
+.book-type-wrapper {
+    margin: 25px 50px;
+}

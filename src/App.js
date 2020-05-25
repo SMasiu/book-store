@@ -17,32 +17,30 @@ history.listen(_ => {
 const App = () => (
 	<div className="App">
 		<Router history={history}>
-			<div className="page-container">
-				<Header />
-				<div className="page-wrapper">
-					<Switch>
-						<Route path="/" exact>
-							<HomePage />
-						</Route>
-						<Route path="/login">
-							<LoginPage />
-						</Route>
-						<Route path="/register">
-							<RegisterPage />
-						</Route>
-						<Route path="/cart">
-							<Cart />
-						</Route>
-						<Route path="/product">
-							<Product />
-						</Route>
-						<Route path="/categories">
-							<ProductTypes />
-						</Route>
-					</Switch>
-				</div>
-				<Footer />
+			<Header />
+			<div className="page-wrapper">
+				<Switch>
+					<Route path="/" exact>
+						<HomePage />
+					</Route>
+					<Route path="/login">
+						<LoginPage />
+					</Route>
+					<Route path="/register">
+						<RegisterPage />
+					</Route>
+					<Route path="/cart">
+						<Cart />
+					</Route>
+					<Route path="/product">
+						<Product />
+					</Route>
+					<Route path="/categories">
+						<ProductTypes />
+					</Route>
+				</Switch>
 			</div>
+				<Footer />
 		</Router>
 	</div>
 )
