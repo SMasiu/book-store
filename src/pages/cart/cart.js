@@ -15,7 +15,7 @@ const Cart = () => {
     const getColor = (i) => `cart-item-${['primary', 'secondary', 'dark'][i % 3]}`
 
     return (
-        <section className="cart-wrapper">
+        <section className="cart-page-wrapper">
             <h1>Your cart</h1>
             
             <section>
