@@ -2,6 +2,7 @@
     max-width: 1800px;
     margin: auto;
     margin-bottom: 50px;
+    padding: 0 50px;
 }
 
 .cart-page-wrapper h1 {
@@ -20,4 +21,16 @@
 
 .cart-total {
     font-size: 2rem;
+}
+
+@media (max-width: 550px) {
+    .cart-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cart-total {
+        text-align: center;
+        margin: 15px 0;
+    }
 }
